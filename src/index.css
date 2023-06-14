@@ -8,6 +8,7 @@
 
 html {
 	font-size: 62.5%;
+	overflow: scroll;
 }
 
 body {
@@ -129,4 +130,9 @@ input[type="checkbox"] {
 	text-align: center;
 	font-weight: 700;
 	padding: 3.2rem 0;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; /* make scrollbar transparent */
 }
